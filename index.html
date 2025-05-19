@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMKN 7 Semarang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+<body class="min-h-screen flex flex-col font-[Rubik]">
+
+    <header class="sticky top-0 z-10 bg-white shadow-md">
+        <div class="w-full px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img src="images/icon.png" alt="Logo" class="w-12 h-12">
+                <div class="text-2xl font-bold">SMKN 7 SEMARANG</div>
+            </div>
+            <nav class="md:flex md:items-center">
+                <ul class="flex flex-col md:flex-row md:space-x-12 space-y-4 md:space-y-0 font-semibold text-gray-700 text-md text-black">
+                    <li><a href="#about" class=" hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">About</a></li>
+                <li class="relative group">
+                    <a href="#jurusan" class="hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">Jurusan<i class="fa-solid fa-angle-down ml-2 text-gray-700 hover:text-white"></i></a>
+                    <ul class="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg hidden group-hover:block">
+                        <li><a href="#sija" class="block px-4 py-2 text-gray-700 hover:bg-pink-100 hover:text-pink-700">SIJA</a></li>
+                        <li><a href="#kjij" class="block px-4 py-2 text-gray-700 hover:bg-amber-700 hover:text-amber-300">KJIJ</a></li>
+                        <li><a href="#kgs" class="block px-4 py-2 text-gray-700 hover:bg-amber-700 hover:text-amber-300">KGS</a></li>
+                        <li><a href="#titl" class="block px-4 py-2 text-gray-700 hover:bg-yellow-200 hover:text-yellow-700">TITL</a></li>
+                        <li><a href="#tme" class="block px-4 py-2 text-gray-700 hover:bg-yellow-200 hover:text-yellow-700">TME</a></li>
+                        <li><a href="#tek" class="block px-4 py-2 text-gray-700 hover:bg-yellow-200 hover:text-yellow-700">TEK</a></li>
+                        <li><a href="#tflm" class="block px-4 py-2 text-gray-700 hover:bg-blue-100 hover:text-blue-700">TFLM</a></li>
+                        <li><a href="#tkr" class="block px-4 py-2 text-gray-700 hover:bg-blue-100 hover:text-blue-700">TKR</a></li>
+                    </ul>
+                </li>
+                    <li><a href="#lookbook" class=" hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">Lookbook</a></li>
+                    <li><a href="#testimoni" class=" hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">Testimoni</a></li>
+                    <li><a href="#contact" class=" hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section class="py-10 px-6 flex flex-col md:flex-row items-center justify-between">
+            <div class="mb-10 md:mb-0">
+                <h1 class="text-5xl font-bold mb-4">SMK Negeri 7 SEMARANG</h1>
+                <p class="text-xl text-gray-600 mb-6">Mari belajar di SMKN 7 Semarang! 📖</p>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold">Get in Touch</button>
+            </div>
+            <img src="images/test.jpg" alt="School" class="w-full md:w-[500px] rounded-2xl shadow-lg">
+        </section>
+
+        <section id="about" class="py-12 bg-gray-50 px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-4">About SMKN 7 Semarang</h2>
+                <p class="text-gray-700 text-lg">SMK Negeri 7 Semarang adalah sekolah menengah kejuruan yang berada di Semarang, Jawa Tengah, Indonesia.</p>
+            </div>
+        </section>
+
+        <section id="jurusan" class="py-12 px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-center">Jurusan SMKN 7 Semarang</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="p-6 border rounded-lg shadow-md text-center">
+                        <div class="text-4xl text-blue-600 mb-4"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3 class="text-xl font-semibold mb-2">SIJA</h3>
+                        <p class="text-gray-600">Jurusan yang berfokus pada pembuatan perangkat lunak dan pengembangan gim berbasis komputer maupun mobile.</p>
+                    </div>
+                    <!-- Add other departments as needed here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="lookbook" class="py-12 bg-gray-50 px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-center">Lookbook</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="images/lookbook1.jpg" alt="Lookbook 1" class="w-full h-48 object-cover rounded mb-4">
+                        <h3 class="text-xl font-semibold">Kegiatan Siswa</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimoni" class="py-12 px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-8">Testimoni</h2>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-gray-700 italic">"SMKN 7 Semarang memberikan saya banyak ilmu dan pengalaman yang luar biasa!"</p>
+                    <p class="mt-4 font-semibold">- Anisa, Alumni 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-12 bg-gray-100 px-6">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-6">Contact Us! 📞</h2>
+                <form class="space-y-4">
+                    <div>
+                        <label for="name" class="block font-semibold">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Fullname" class="w-full p-2 border rounded">
+                    </div>
+                    <div>
+                        <label for="email" class="block font-semibold">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@mail.com" class="w-full p-2 border rounded">
+                    </div>
+                    <div>
+                        <label for="message" class="block font-semibold">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your Message..." class="w-full p-2 border rounded"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded font-semibold">Send!</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-200 text-center py-6 mt-12">
+        <p class="text-gray-700">2025 SMKN 7 Semarang. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
