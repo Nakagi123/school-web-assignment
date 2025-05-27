@@ -19,24 +19,24 @@
                 <div class="text-2xl font-bold">SMKN 7 SEMARANG</div>
             </div>
             <nav class="md:flex md:items-center">
-                <ul class="flex flex-col md:flex-row md:space-x-12 space-y-4 md:space-y-0 font-semibold text-gray-700 text-md text-black">
-                    <li><a href="#about" class=" hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">About</a></li>
-                <li class="relative group">
-                    <a href="#jurusan" class="hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">Jurusan<i class="fa-solid fa-angle-down ml-2 text-gray-700 hover:text-white"></i></a>
-                    <ul class="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg hidden group-hover:block">
-                        <li><a href="#sija" class="block px-4 py-2 text-gray-700 hover:bg-pink-100 hover:text-pink-700">SIJA</a></li>
-                        <li><a href="#kjij" class="block px-4 py-2 text-gray-700 hover:bg-amber-700 hover:text-amber-300">KJIJ</a></li>
-                        <li><a href="#kgs" class="block px-4 py-2 text-gray-700 hover:bg-amber-700 hover:text-amber-300">KGS</a></li>
-                        <li><a href="#titl" class="block px-4 py-2 text-gray-700 hover:bg-yellow-200 hover:text-yellow-700">TITL</a></li>
-                        <li><a href="#tme" class="block px-4 py-2 text-gray-700 hover:bg-yellow-200 hover:text-yellow-700">TME</a></li>
-                        <li><a href="#tek" class="block px-4 py-2 text-gray-700 hover:bg-yellow-200 hover:text-yellow-700">TEK</a></li>
-                        <li><a href="#tflm" class="block px-4 py-2 text-gray-700 hover:bg-blue-100 hover:text-blue-700">TFLM</a></li>
-                        <li><a href="#tkr" class="block px-4 py-2 text-gray-700 hover:bg-blue-100 hover:text-blue-700">TKR</a></li>
-                    </ul>
-                </li>
-                    <li><a href="#lookbook" class=" hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">Lookbook</a></li>
-                    <li><a href="#testimoni" class=" hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">Testimoni</a></li>
-                    <li><a href="#contact" class=" hover:bg-blue-700 hover:rounded-lg px-3 py-2 hover:text-white">Contact</a></li>
+                <ul class="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0 font-medium text-gray-700">
+                    <li><a href="#about" class="hover:text-blue-600">About</a></li>
+                    <li class="relative group">
+                        <a href="#jurusan" class="hover:text-blue-600">Jurusan <i class="fa-solid fa-angle-down ml-1"></i></a>
+                        <ul class="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-lg hidden group-hover:block z-20">
+                            <li><a href="#sija" class="block px-4 py-2 hover:bg-gray-100">SIJA</a></li>
+                            <li><a href="#kjij" class="block px-4 py-2 hover:bg-gray-100">KJIJ</a></li>
+                            <li><a href="#kgs" class="block px-4 py-2 hover:bg-gray-100">KGS</a></li>
+                            <li><a href="#titl" class="block px-4 py-2 hover:bg-gray-100">TITL</a></li>
+                            <li><a href="#tme" class="block px-4 py-2 hover:bg-gray-100">TME</a></li>
+                            <li><a href="#tek" class="block px-4 py-2 hover:bg-gray-100">TEK</a></li>
+                            <li><a href="#tflm" class="block px-4 py-2 hover:bg-gray-100">TFLM</a></li>
+                            <li><a href="#tkr" class="block px-4 py-2 hover:bg-gray-100">TKR</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#lookbook" class="hover:text-blue-600">Lookbook</a></li>
+                    <li><a href="#testimoni" class="hover:text-blue-600">Testimoni</a></li>
+                    <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -63,34 +63,103 @@
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-3xl font-bold mb-8 text-center">Jurusan SMKN 7 Semarang</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="p-6 border rounded-lg shadow-md text-center">
+                    <div id="sija" class="p-6 border rounded-lg shadow-md text-center">
                         <div class="text-4xl text-blue-600 mb-4"><i class="fa-solid fa-laptop-code"></i></div>
                         <h3 class="text-xl font-semibold mb-2">SIJA</h3>
                         <p class="text-gray-600">Jurusan yang berfokus pada pembuatan perangkat lunak dan pengembangan gim berbasis komputer maupun mobile.</p>
                     </div>
-                    <!-- Add other departments as needed here -->
-                </div>
-            </div>
-        </section>
-
-        <section id="lookbook" class="py-12 bg-gray-50 px-6">
-            <div class="max-w-6xl mx-auto">
-                <h2 class="text-3xl font-bold mb-8 text-center">Lookbook</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="bg-white p-4 rounded-lg shadow-md">
-                        <img src="images/lookbook1.jpg" alt="Lookbook 1" class="w-full h-48 object-cover rounded mb-4">
-                        <h3 class="text-xl font-semibold">Kegiatan Siswa</h3>
+                    <div id="kjij" class="p-6 border rounded-lg shadow-md text-center">
+                        <div class="text-4xl text-blue-600 mb-4"><i class="fa-solid fa-road"></i></div>
+                        <h3 class="text-xl font-semibold mb-2">KJIJ</h3>
+                        <p class="text-gray-600">Jurusan ini berfokus pada pembangunan infrastruktur sipil seperti jalan, jembatan, dan gedung bertingkat.</p>
+                    </div>
+                    <div id="kgs" class="p-6 border rounded-lg shadow-md text-center">
+                        <div class="text-4xl text-blue-600 mb-4"><i class="fa-solid fa-building"></i></div>
+                        <h3 class="text-xl font-semibold mb-2">KGS</h3>
+                        <p class="text-gray-600">Jurusan ini mempelajari teknik perencanaan, pembangunan, dan perawatan bangunan perumahan serta fasilitas umum.</p>
+                    </div>
+                    <div id="titl" class="p-6 border rounded-lg shadow-md text-center">
+                        <div class="text-4xl text-blue-600 mb-4"><i class="fa-solid fa-bolt"></i></div>
+                        <h3 class="text-xl font-semibold mb-2">TITL</h3>
+                        <p class="text-gray-600">Jurusan ini mengajarkan instalasi, perawatan, dan perbaikan sistem kelistrikan.</p>
+                    </div>
+                    <div id="tme" class="p-6 border rounded-lg shadow-md text-center">
+                        <div class="text-4xl text-blue-600 mb-4"><i class="fa-solid fa-robot"></i></div>
+                        <h3 class="text-xl font-semibold mb-2">TME</h3>
+                        <p class="text-gray-600">Menggabungkan teknik mekanika, elektronika, dan informatika dalam sistem kendali otomatis.</p>
+                    </div>
+                    <div id="tek" class="p-6 border rounded-lg shadow-md text-center">
+                        <div class="text-4xl text-blue-600 mb-4"><i class="fa-solid fa-signal"></i></div>
+                        <h3 class="text-xl font-semibold mb-2">TEK</h3>
+                        <p class="text-gray-600">Mempelajari sistem komunikasi elektronik, termasuk perangkat telekomunikasi, jaringan komputer, dan teknologi transmisi data.</p>
+                    </div>
+                    <div id="tflm" class="p-6 border rounded-lg shadow-md text-center">
+                        <div class="text-4xl text-blue-600 mb-4"><i class="fa-solid fa-wrench"></i></div>
+                        <h3 class="text-xl font-semibold mb-2">TFLM</h3>
+                        <p class="text-gray-600">Jurusan ini mengajarkan keterampilan dalam teknik pengelasan dan fabrikasi logam untuk industri.</p>
+                    </div>
+                    <div id="tkr" class="p-6 border rounded-lg shadow-md text-center">
+                        <div class="text-4xl text-blue-600 mb-4"><i class="fa-solid fa-car"></i></div>
+                        <h3 class="text-xl font-semibold mb-2">TKR</h3>
+                        <p class="text-gray-600">Jurusan ini mengajarkan tentang sistem dan teknologi kendaraan bermotor, termasuk perbaikan dan perawatan mesin.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="testimoni" class="py-12 px-6">
-            <div class="max-w-4xl mx-auto text-center">
-                <h2 class="text-3xl font-bold mb-8">Testimoni</h2>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <p class="text-gray-700 italic">"SMKN 7 Semarang memberikan saya banyak ilmu dan pengalaman yang luar biasa!"</p>
-                    <p class="mt-4 font-semibold">- Anisa, Alumni 2023</p>
+        <section id="lookbook" class="py-12 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-semibold text-center mb-8">Lookbook</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div class="overflow-hidden rounded shadow">
+                        <img src="images/lookbook1.jpg" alt="Lookbook Image 1" class="w-full h-60 object-cover">
+                        <p class="p-4 text-center font-medium">Kegiatan praktik jurusan SIJA</p>
+                    </div>
+                    <div class="overflow-hidden rounded shadow">
+                        <img src="images/lookbook2.jpg" alt="Lookbook Image 2" class="w-full h-60 object-cover">
+                        <p class="p-4 text-center font-medium">Pameran hasil karya siswa</p>
+                    </div>
+                    <div class="overflow-hidden rounded shadow">
+                        <img src="images/lookbook3.jpg" alt="Lookbook Image 3" class="w-full h-60 object-cover">
+                        <p class="p-4 text-center font-medium">Ekstrakurikuler dan kegiatan sekolah</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="py-12 bg-gray-100">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-semibold text-center mb-8">Gallery</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div class="overflow-hidden rounded shadow">
+                        <img src="images/gallery1.jpg" alt="Gallery Image 1" class="w-full h-60 object-cover">
+                    </div>
+                    <div class="overflow-hidden rounded shadow">
+                        <img src="images/gallery2.jpg" alt="Gallery Image 2" class="w-full h-60 object-cover">
+                    </div>
+                    <div class="overflow-hidden rounded shadow">
+                        <img src="images/gallery3.jpg" alt="Gallery Image 3" class="w-full h-60 object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimoni" class="py-12 text-center bg-gray-100">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-semibold mb-6">Testimoni</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <p class="italic mb-4">"Belajar di SMKN 7 Semarang membuat saya siap menghadapi dunia kerja. Guru-gurunya sangat mendukung!"</p>
+                        <p class="font-bold">- Andi, Alumni SIJA</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <p class="italic mb-4">"Saya mendapatkan banyak pengalaman luar biasa dari kegiatan praktik di jurusan TFLM."</p>
+                        <p class="font-bold">- Rina, Alumni TFLM</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <p class="italic mb-4">"Fasilitasnya lengkap dan pembelajarannya menyenangkan!"</p>
+                        <p class="font-bold">- Budi, Siswa KGS</p>
+                    </div>
                 </div>
             </div>
         </section>
