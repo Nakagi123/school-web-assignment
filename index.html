@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full">
+<html lang="en" class="h-full scroll-smooth md:scroll-auto">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,15 +23,15 @@
                     <li><a href="#about" class="hover:text-blue-600">About</a></li>
                     <li class="relative group">
                         <a href="#jurusan" class="hover:text-blue-600">Jurusan <i class="fa-solid fa-angle-down ml-1"></i></a>
-                        <ul class="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-lg hidden group-hover:block z-20">
-                            <li><a href="#sija" class="block px-4 py-2 hover:bg-gray-100">SIJA</a></li>
-                            <li><a href="#kjij" class="block px-4 py-2 hover:bg-gray-100">KJIJ</a></li>
-                            <li><a href="#kgs" class="block px-4 py-2 hover:bg-gray-100">KGS</a></li>
-                            <li><a href="#titl" class="block px-4 py-2 hover:bg-gray-100">TITL</a></li>
-                            <li><a href="#tme" class="block px-4 py-2 hover:bg-gray-100">TME</a></li>
-                            <li><a href="#tek" class="block px-4 py-2 hover:bg-gray-100">TEK</a></li>
-                            <li><a href="#tflm" class="block px-4 py-2 hover:bg-gray-100">TFLM</a></li>
-                            <li><a href="#tkr" class="block px-4 py-2 hover:bg-gray-100">TKR</a></li>
+                        <ul class="absolute left-0 w-48 bg-white shadow-lg rounded-lg hidden group-hover:block z-20">
+                            <li><a href="#sija" class="block px-4 py-2 hover:bg-pink-100">SIJA</a></li>
+                            <li><a href="#kjij" class="block px-4 py-2 hover:bg-amber-500">KJIJ</a></li>
+                            <li><a href="#kgs" class="block px-4 py-2 hover:bg-amber-500">KGS</a></li>
+                            <li><a href="#titl" class="block px-4 py-2 hover:bg-yellow-100">TITL</a></li>
+                            <li><a href="#tme" class="block px-4 py-2 hover:bg-yellow-100">TME</a></li>
+                            <li><a href="#tek" class="block px-4 py-2 hover:bg-yellow-100">TEK</a></li>
+                            <li><a href="#tflm" class="block px-4 py-2 hover:bg-blue-100">TFLM</a></li>
+                            <li><a href="#tkr" class="block px-4 py-2 hover:bg-blue-100">TKR</a></li>
                         </ul>
                     </li>
                     <li><a href="#lookbook" class="hover:text-blue-600">Lookbook</a></li>
@@ -43,7 +43,7 @@
     </header>
 
     <main class="flex-grow">
-        <section class="py-10 px-12 flex flex-col md:flex-row items-center justify-between">
+        <section class="py-10 px-16 flex flex-col md:flex-row items-center justify-between">
             <div class="mb-10 md:mb-0">
                 <h1 class="text-5xl font-bold mb-4">SMK Negeri 7 SEMARANG</h1>
                 <p class="text-xl text-gray-600 mb-6">Mari belajar di SMKN 7 Semarang! 📖</p>
@@ -59,8 +59,8 @@
             </div>
         </section>
 
-        <section id="jurusan" class="py-12 px-6">
-            <div class="max-w-7xl mx-auto">
+        <section id="jurusan" class="py-12 px-16">
+            <div class="max-w-8xl mx-auto">
                 <h2 class="text-3xl font-bold mb-8 text-center">Jurusan SMKN 7 Semarang</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div id="sija" class="p-6 border rounded-lg shadow-md text-center">
@@ -112,33 +112,16 @@
                 <h2 class="text-3xl font-semibold text-center mb-8">Lookbook</h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     <div class="overflow-hidden rounded shadow">
-                        <img src="images/lookbook1.jpg" alt="Lookbook Image 1" class="w-full h-60 object-cover">
+                        <img src="images/lookbook1.jpg" alt="Lookbook Image 1" class="w-full h-60 ">
                         <p class="p-4 text-center font-medium">Kegiatan praktik jurusan SIJA</p>
                     </div>
                     <div class="overflow-hidden rounded shadow">
                         <img src="images/lookbook2.jpg" alt="Lookbook Image 2" class="w-full h-60 object-cover">
-                        <p class="p-4 text-center font-medium">Pameran hasil karya siswa</p>
+                        <p class="p-4 text-center font-medium">Karya Bakti SMKN 7 Semarang</p>
                     </div>
                     <div class="overflow-hidden rounded shadow">
                         <img src="images/lookbook3.jpg" alt="Lookbook Image 3" class="w-full h-60 object-cover">
-                        <p class="p-4 text-center font-medium">Ekstrakurikuler dan kegiatan sekolah</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="gallery" class="py-12 bg-gray-100">
-            <div class="max-w-6xl mx-auto">
-                <h2 class="text-3xl font-semibold text-center mb-8">Gallery</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                    <div class="overflow-hidden rounded shadow">
-                        <img src="images/gallery1.jpg" alt="Gallery Image 1" class="w-full h-60 object-cover">
-                    </div>
-                    <div class="overflow-hidden rounded shadow">
-                        <img src="images/gallery2.jpg" alt="Gallery Image 2" class="w-full h-60 object-cover">
-                    </div>
-                    <div class="overflow-hidden rounded shadow">
-                        <img src="images/gallery3.jpg" alt="Gallery Image 3" class="w-full h-60 object-cover">
+                        <p class="p-4 text-center font-medium">Kegiatan Ketahanan Sekolah</p>
                     </div>
                 </div>
             </div>
